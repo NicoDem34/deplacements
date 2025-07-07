@@ -1,0 +1,46 @@
+.App {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.add-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 2rem;
+  background: #0072B2;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-btn:hover {
+  background: #005a8c;
+}
+
+.feedback {
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feedback.success {
+  background: #d4edda;
+  color: #155724;
+}
+
+.feedback.error {
+  background: #f8d7da;
+  color: #721c24;
+}
