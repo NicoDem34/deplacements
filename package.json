@@ -1,0 +1,19 @@
+{
+  "name": "deplacements-app",
+  "version": "1.0.0",
+  "description": "Application web pour afficher les déplacements des utilisateurs sous forme de calendrier",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  }
+}
